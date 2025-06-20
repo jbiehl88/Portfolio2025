@@ -9,6 +9,15 @@ import AnsibleIcon from './icons/ansible.svg';
 import JinjaIcon from './icons/jinja.svg';
 import MaterialUIIcon from './icons/material-ui.svg';
 import JavaScriptIcon from './icons/javascript.svg';
+import Auth0Icon from './icons/auth0.svg'
+import SequelizeIcon from './icons/sequelize.svg'
+import SQLiteIcon from './icons/sqlite.svg'
+import ExpressIcon from './icons/express.svg'
+import PythonIcon from './icons/python.svg'
+import DockerIcon from './icons/docker.svg'
+import GCPIcon from './icons/gcp.svg'
+import LangChainIcon from './icons/langchain-color.svg'
+import DeepseekIcon from './icons/deepseek.svg'
 
 const ICON_SIZE = 48; // 200% of 24px
 
@@ -54,6 +63,16 @@ const ProjectCard = ({ title, description, technologies, link }) => (
           'Material UI': MaterialUIIcon,
           'Node.js': NodeIcon,
           'Javascript': JavaScriptIcon,
+          'Auth0': Auth0Icon,
+          'Sequelize': SequelizeIcon,
+          'SQLite': SQLiteIcon,
+          'Express': ExpressIcon,
+          'Python': PythonIcon,
+          'Docker': DockerIcon,
+          'GCP': GCPIcon,
+          'LangChain': LangChainIcon,
+          'Deepseek': DeepseekIcon
+
         };
         const iconSrc = iconMap[tech];
         return (
