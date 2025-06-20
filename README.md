@@ -33,7 +33,6 @@ src/
 
 ### 1. Clone the repo
 
-```bash
 git clone https://github.com/yourusername/mui-portfolio.git
 cd mui-portfolio
 
