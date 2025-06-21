@@ -1,10 +1,12 @@
 import React from 'react';
-import { Typography, Grid } from '@mui/material';
+import { Typography, Grid, Box } from '@mui/material';
 import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => (
   <div>
     <Typography variant="h4" sx={{ textAlign: 'center' }}>Projects</Typography>
+    <Box sx={{ mx: '50px', mt: 4 }}>
+
     <Grid container spacing={2} sx={{ mt: 1 }} alignItems="stretch">
       {[
         {
@@ -89,6 +91,7 @@ const Projects = () => (
         </Grid>
       ))}
     </Grid>
+    </Box>
   </div>
 );
 
