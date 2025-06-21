@@ -75,9 +75,10 @@ const ApprenticeshipOverview = () => {
     }}
   >
     <li>Front-End Development (React, Material UI)</li>
-    <li>Accessibility & UI/UX Design</li>
     <li>DevOps & Automation (Ansible, CI/CD)</li>
     <li>API Development & Integration</li>
+    <li>Databas Management</li>
+    <li>Cloud & Deployment</li>
   </Box>
 </Box>
 
