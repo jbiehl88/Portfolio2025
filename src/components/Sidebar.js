@@ -7,7 +7,8 @@ import avatar from './avatar.jpg';
 const navItems = [
   { text: 'Home', path: '/' },
   { text: 'Projects', path: '/projects' },
-  { text: 'Contact', path: '/contact' }
+  { text: 'Contact', path: '/contact' },
+  { text: 'Apprenticeship Overview', path: '/overview' }
 ];
 
 const Sidebar = () => (

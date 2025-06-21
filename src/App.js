@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import ApprenticeshipOverview from './pages/Apprenticeship_Overview';
 
 const App = () => (
   <Router>
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/overview" element={<ApprenticeshipOverview />} />
         </Routes>
       </Box>
     </Box>
